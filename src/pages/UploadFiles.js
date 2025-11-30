@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-function UploadDocs() {
+function UploadFiles() {
     const navigate = useNavigate();
     const [documents, setDocuments] = useState({
         idCard: null,
@@ -108,4 +108,4 @@ function UploadDocs() {
     );
 }
 
-export default UploadDocs;
+export default UploadFiles;

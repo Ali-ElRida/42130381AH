@@ -21,8 +21,8 @@ function Navbar() {
           <Link to="/register" className="hover:opacity-80 transition">Register</Link>
           <Link to="/login" className="hover:opacity-80 transition">Login</Link>
           <Link to="/dashboard" className="hover:opacity-80 transition">Dashboard</Link>
-          <Link to="/appointments" className="hover:opacity-80 transition">Appointments</Link>
-          <Link to="/upload" className="hover:opacity-80 transition">Docs</Link>
+          <Link to="appointment-booking" className="hover:opacity-80 transition">Appointments</Link>
+          <Link to="/upload-docs" className="hover:opacity-80 transition">Files</Link>
           <Link to="/payment" className="hover:opacity-80 transition">Payments</Link>
         </div>
 
@@ -59,8 +59,8 @@ function Navbar() {
             Appointments
           </Link>
 
-          <Link to="/upload" onClick={() => setIsOpen(false)} className="block hover:opacity-80">
-            Docs
+          <Link to="/upload-docs" onClick={() => setIsOpen(false)} className="block hover:opacity-80">
+            Files
           </Link>
 
           <Link to="/payment" onClick={() => setIsOpen(false)} className="block hover:opacity-80">

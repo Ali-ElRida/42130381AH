@@ -9,8 +9,9 @@ import AppointmentBooking from "./pages/AppointmentBooking";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProtectedRoute from "./components/ProtectedRoute";
-import UploadDocs from './pages/UploadFiles';
+import UploadFiles from './pages/UploadFiles';
 import Payment from './pages/Payments';
+
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
             path="/upload-docs"
             element={
               <ProtectedRoute>
-                <UploadDocs />
+                <UploadFiles/>
               </ProtectedRoute>
             }
           />
