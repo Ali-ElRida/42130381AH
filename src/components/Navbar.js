@@ -55,7 +55,7 @@ function Navbar() {
             Dashboard
           </Link>
 
-          <Link to="/appointments" onClick={() => setIsOpen(false)} className="block hover:opacity-80">
+          <Link to="/appointment-booking" onClick={() => setIsOpen(false)} className="block hover:opacity-80">
             Appointments
           </Link>
 
